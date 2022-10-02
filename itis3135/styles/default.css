@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
 
-header{
+
+
+
+
+body
+{
+    font-family: sans-serif;
+}
+
+header
+{
     text-align: center;
 }
 
-title{
+title
+{
     text-align: center;
 }
 
-h2{
+h1
+{
     text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-img{
+h2
+{
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+h3
+{
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+img
+{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-ul{
+ul
+{
 
 color: rgb(19, 69, 102);
 }
@@ -33,7 +61,30 @@ margin-left: 5vw;
 margin-right: 5vw;
 
 color: #3b506b;
-background-color: rgb(190, 251, 255);
+background-color: #75c0e2;
 font-family: 'Inter' , sans-serif;
+
+}
+
+footer
+{
+
+text-align: center;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+
+}
+
+nav
+{
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+color: rgb(19, 69, 102);
+}
+
+a
+{
+
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+color: rgb(19, 69, 102);
 
 }
