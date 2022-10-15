@@ -1,109 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
 
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #3b506b;
+    background-color: #75c0e2;
+}
 
+header {
+    text-align: center;
+}
 
+title {
+    text-align: center;
+}
 
+footer {
+    text-align: center;
+}
+ 
+nav {
+    color: rgb(19, 69, 102);
+    margin: 1.5vh 0;
+}
 
-body
-{
-    font-family: sans-serif;
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(23 81 41);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(23 81 41);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(23 81 41);
+}
+
+form {
+    background-color: #9cc9df;
+}
+
+ul {
+    color: rgb(19, 69, 102);
+}
+
+li {
+    margin-bottom: 0.75em;
+}
+
+a {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: rgb(22 93 41);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #aeddf3;
+}
+
+main > ul {
+    margin-left: 14vw;
+    margin-right: 14vw;
+    max-width: 1024px;
+}
+
+.center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-header
-{
     text-align: center;
 }
 
-
-
-title
-{
-    text-align: center;
+.no-underline {
+    text-decoration: none;
 }
 
-h1
-{
-    text-align: center;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+#turtle-img {
+    width: 50vw;
+    border: 4px solid black;
 }
-
-h2
-{
-    text-align: center;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-}
-
-h3
-{
-    text-align: center;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-}
-
-img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-ul
-{
-
-color: rgb(19, 69, 102);
-}
-
-
-
-body
-{
-
-
-margin-left: 5vw;
-margin-right: 5vw;
-
-color: #3b506b;
-background-color: #75c0e2;
-font-family: 'Inter' , sans-serif;
-
-}
-
-footer
-{
-
-text-align: center;
-font-family: 'IBM Plex Sans Condensed', sans-serif;
-
-
-
-
-
-}
-
-nav
-{
-font-family: 'IBM Plex Sans Condensed', sans-serif;
-color: rgb(19, 69, 102);
-}
-
-a
-{
-
-font-family: 'IBM Plex Sans Condensed', sans-serif;
-color: rgb(19, 69, 102);
-
-}
-
-form{
-    text-align:left;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    background-color: #9cc9df;
-
-
-
-}
-
-
-
