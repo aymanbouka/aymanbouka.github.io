@@ -1,74 +1,57 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>
-            The Ace Bongo | Ayman Boukharraz | ITIS 3135 | ### Template ### 
+<html lang="en">
 
-        </title>
-       
-        
-    </head>
-    <body>
-        <link rel="stylesheet" href="styles/default.css" >
+<head>
+    <title>
+        The Ace Bongo | Ayman Boukharraz | ITIS 3135 | ### Template ###
+    </title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles/default.css">
+    <header>
+        <h2>
+            Forms
+        </h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="contract.html">Contract</a>
+            <a href="tables.html">Tables</a>
+        </nav><br>
+        <form class="left-center" action="#">
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required><br><br>
+            <label for="checkboxes">How Are You Feeling</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkboxes">Happy</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox">         
+            <label for="checkboxes">Very Happy</label><br><br>
+            <label for="Subject">Whats Your Major</label><br>
+            <input type="radio" id="Subject" name="Subject">          
+            <label for="Subject">Computer Science</label><br>
+            <input type="radio" id="Subject" name="Subject">       
+            <label for="Subject">Mathmatics</label><br><br>        
+            <label for="Animal">Favorite Animal</label><br>
+            <select type="animal" id="animal">
+                <option value="Dog"></option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Bird">Bird</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
         <header>
-            <h2>
-                Forms
-            </h2>
-            <nav>
-                <a href="index.html" >Home</a>
-                <a href="introduction.html">Introduction</a>
-                <a href="contract.html">Contract</a>
-                <a href="tables.html">Tables</a>
-                
-                
-
-                
-            </nav><br>
-            <form action="#">
-                <label for="firstname">First Name:</label><br>
-                <input type="text" id="firstname" name="firstname"><br>
-
-                <label for="lastname">Last Name:</label><br>
-                <input type="text" id="lastname" name="lastname"><br>
-
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-
-                <label for="phone">Phone Number</label><br>
-                <input type="tel" id="phone" name="phone" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
-
-                <label for="checkboxes">How Are You Feeling</label><br>
-                <input type="checkbox" id="checkbox" name="checkbox">
-                <label for="checkboxes">Happy</label><br>
-                <input type="checkbox" id="checkbox" name="checkbox">
-                <label for="checkboxes">Very Happy</label><br><br>
-
-                <label for="Subject">Whats Your Major</label><br>
-                <input type="radio" id="Subject" name="Subject">
-                <label for="Subject">Computer Science</label><br>
-                <input type="radio" id="Subject" name="Subject">
-                <label for="Subject">Mathmatics</label><br><br>
-
-                <label for="Animal">Favorite Animal</label><br>
-                <select type="animal" id="animal">
-                    <option value="Dog"></option>
-                    <option value="Dog">Dog</option>
-                    <option value="Cat">Cat</option>
-                    <option value="Bird">Bird</option>
-                </select><br><br>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-
-            </form>
-
-        <header>
-
             <main>
-
-                
             <main>
-
             <footer>
-            <footer> 
-    </body>
+            <footer>
+</body>
 </html>
