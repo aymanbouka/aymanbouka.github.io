@@ -28,19 +28,19 @@ nav {
 h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: rgb(23 81 41);
+    color: rgb(22 59 96);
 }
 
 h2 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: rgb(23 81 41);
+    color: rgb(22 59 96);
 }
 
 h3 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: rgb(23 81 41);
+    color: rgb(22 59 96);
 }
 
 form {
@@ -57,8 +57,35 @@ li {
 
 a {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
-    color: rgb(22 93 41);
+    color: rgb(22 59 96);
     text-decoration: none;
+}
+
+table th:nth-child(1) {
+    background-color: rgb(155, 188, 199);
+}
+
+table th:nth-child(2) {
+    background-color: rgb(155, 188, 199);
+}
+
+table th:nth-child(3) {
+    background-color: rgb(155, 188, 199);
+}
+
+table th:nth-child(4) {
+    background-color: rgb(155, 188, 199);
+}
+
+table th:nth-child(5) {
+    background-color: rgb(155, 188, 199);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(240, 212, 152);
+}
+table tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
 }
 
 a:hover {
@@ -90,3 +117,14 @@ main > ul {
 .left-center {
     text-align:left;
 }
+
+.footer-tables {
+    nav-down: auto;
+}
+
+.forms-ul {
+    text-align:left;
+    list-style: none
+    
+}
+
