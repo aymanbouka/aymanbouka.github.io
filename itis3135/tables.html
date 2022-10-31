@@ -7,17 +7,7 @@
 
 <body>
     <link rel="stylesheet" href="styles/default.css">
-    <header>
-        <h1>Ayman Boukharraz * ITIS3135 *</h1>
-        <nav>
-            <a href="index.html">Home</a> &diamondsuit; 
-            <a href="introduction.html">Introduction</a> &diamondsuit; 
-            <a href="contract.html">Contract</a> &diamondsuit; 
-            <a href="tables.html">Tables</a> &diamondsuit; 
-            <a href="forms.html">Forms</a>
-        </nav>
-    </header>
-
+    <div data-include="components/header.html"></div>
     <head>
         <title>The Ace Bongo | Ayman Boukharraz | ITIS 3135 | ### Table ###</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet">
         <link hrep="styles/default.css" rel="stylesheet">
     </head>
-
     <body>
-        <header>
-            <header>
                 <main>
                     <h2>HTML Tables</h2>
                     <h4 class="left-center">My Tabular Data</h4>
@@ -144,23 +131,9 @@
                     </table>
                     <figurecaption class="footer-tables">f1.Employee Data in Simple Table</figurecaption>
                     <h5></h5>
-                    <footer>
-                        <a href="index.html">Built By AymanBoukharrazllc ©</a>
-                        <nav>
-                            <a href="https://webpages.charlotte.edu/aboukhar/">UNCCHomepage</a> &diamondsuit; 
-                            <a href="https://www.linkedin.com/in/ayman-boukharraz-402559175/">Linkdin</a> &diamondsuit; 
-                            <a href="https://github.com/aymanbouka">GitHubRepository</a> &diamondsuit; 
-                            <a href="https://aymanbouka.github.io/itis3135/">GitHub.io</a> &diamondsuit; 
-                            <a href="https://www.freecodecamp.org/AymanBoukharraz">freeCodeCamp</a> &diamondsuit; 
-                            <a href="https://www.codecademy.com/profiles/aymanboukharraz1">CodeCademy</a>
-                        </nav>
-                        <a class="no-underline" href="https://validator.w3.org/check?uri=referer">
-                            <img src="images/button-valid-html5.png" width="88px" height="31px" alt="Validate webpage HTML.">
-                        </a>
-                        <a class="no-underline" href="https://jigsaw.w3.org/css-validator/check/referer">
-                            <img src="images/button-valid-css.png" width="88px" height="31px" alt="Validate webpage CSS.">
-                        </a>
-                    </footer>
+                    
+                    <div data-include="components/footer.html"></div>
+                    <script src="scripts/HTMLInclude.js"></script>
     </body>
 
 </html>
