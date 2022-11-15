@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/default.css">
+    <title>The Ace Bongo | Ayman Boukharraz | ITIS 3135 | *** Template ***</title>
+</head>
+<body onload="promptUser();">   
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>POLYGONS</h2>
+        <form id="polyForm" action="#" onsubmit= "event.preventDefault(); validateInput();">
+            <label for="promptBox">Number of sides: </label>
+            <input type="number" id="promptBox" name="promptBox" min="1" max="10" required><br><br>
+            <button onclick="promptUser();">Generate Polygon Name</button>
+        </input>
+        </form>
+      
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/polygons.js"></script>
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
